@@ -1,0 +1,279 @@
+@media screen and (max-width: 1750px) {
+	.container{
+		width: 1300px;
+	}
+	.header{
+		&-content{
+			&__block{
+				img{
+					width: 500px;
+				}
+			}
+			&__block:first-child{
+				padding-top: 150px;
+			}
+			&__text{
+				width: 650px;
+			}
+		}
+	}
+	.special{
+		&-block{
+			top: 720px;
+		}
+		&-body{
+			&__item:last-child{
+				margin: 0 auto;
+				margin-top: 40px;
+			}
+		}
+	}
+	.create{
+		padding-top: 100px;
+		&-block{
+			&__text{
+				width: 800px;
+			}
+			img{
+				width: 500px;
+				margin-top: 50px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1500px) {
+	h1{
+		font-size: 51px !important;
+	}
+	h2{
+		font-size: 40px !important;
+	}
+	h3{
+		font-size: 25px !important;
+	}
+	.container{
+		max-width: 1000px;
+	}
+	.general-link{
+		padding: 20px 60px;
+		font-size: 20px;
+	}
+	.header{
+		&-wrapper{
+			display: flex !important;
+			flex-direction: column;
+			position: absolute;
+			top: -110%;
+			left: 0;
+			width: 100vw !important;
+			transition: .4s;
+			background: #fff;
+		}
+		&-list, &-block:last-child{
+			flex-direction: column;
+			align-items: center;
+		}
+		&-list{
+			&__item, &__sign, &__regist{
+				background: #808080;
+				padding: 10px;
+				margin-right: 0;
+				width: 100%;
+				text-align: center;
+			}
+			&__link{
+				color: #fff;
+				margin-right: 0;
+			}
+			&__img{
+				display: none;
+			}
+		}
+		&-burger{
+			display: block;
+		}
+		&-content{
+			&__block{
+				img{
+					width: 400px;
+				}
+			}
+			&__block:first-child{
+				padding-top: 150px;
+			}
+			&__title{
+				font-size: 51px;
+			}
+			&__text{
+				width: 450px;
+				font-size: 22px;
+			}
+		}
+	}
+	.special{
+		&-wrapper{
+			padding-top: 420px;
+		}
+		&-block{
+			top: 560px;
+			width: 1000px;
+			left: calc(50% - 500px);
+			padding: 40px;
+			&__body{
+				flex-direction: column;
+				align-items: flex-start;
+			}
+			&__title{
+				font-size: 28px;
+				span{
+					font-size: 20px;
+				}
+			}
+			&__item{
+				input {
+					padding: 20px;
+				}
+			}
+		}
+		&-body{
+			padding-top: 65px;
+			justify-content: space-evenly;
+			&__item:nth-child(3), &__item:last-child{
+				margin: 40px 0px 0px;
+			}
+		}
+	}
+	.create{
+		padding-top: 50px;
+		&-wrapper{
+			flex-direction: column-reverse;
+    		align-items: center;
+    		text-align: center;
+		}
+		&-block{
+			&__text{
+				width: 800px;
+				font-size: 22px;
+			}
+			img{
+				width: 400px;
+				margin-top: 50px;
+			}
+		}
+	}
+	.partners{
+		padding: 100px 0;
+		&-body{
+			flex-direction: column;
+			padding: 50px 0;
+			&__item{
+				margin-bottom: 60px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.container{
+		width: 960px;
+	}
+	.header{
+		padding: 60px 0;
+	}
+	.special{
+		&-wrapper{
+			padding-top: 440px;
+		}
+		&-block{
+			top: 560px;
+		    width: 880px;
+		    left: calc(50% - 440px);
+		    &__item{
+		    	input{
+		    		width: 600px;
+		    		font-size: 20px;
+		    	}
+		    }
+		}
+	}
+	.partners{
+		padding: 120px 0;
+		&-body{
+			width: 800px;
+			margin: 70px auto 0;
+		}
+	}
+}
+
+@media screen and (max-width: 992px) {
+	h1{
+		font-size: 40px !important;
+	}
+	h2{
+		font-size: 30px !important;
+	}
+	.container{
+		width: 720px;
+	}
+	.header{
+		padding: 60px 0 120px;
+		&-content{
+			flex-direction: column-reverse;
+			align-items: center;
+			&__block:first-child{
+				padding-top: 50px;
+				text-align: center;
+			}
+			&__text{
+				width: 500px;
+				margin: 20px auto;
+			}
+		}
+	}
+	.special{
+		&-wrapper{
+			padding-top: 330px;
+		}
+		&-block{
+			top: 850px;
+			width: 600px;
+			left: calc(50% - 300px);
+			&__item{
+				input{
+					width: 500px;
+					font-size: 18px;
+				}
+			}
+		}
+		&-header{
+			&__title{
+				width: 650px !important;
+			}
+		}
+		&-body{
+			justify-content: space-around;
+			&__item{
+				padding: 30px 15px 75px 15px;
+			}
+		}
+	}
+	.create{
+		&-block{
+			&__title, &__text{
+				width: 650px;
+				text-align: center;
+			}
+		}
+	}
+	.partners{
+		&-body{
+			width: 600px;
+		}
+	}
+	.footer{
+		&-block:nth-child(2), &-block:nth-child(3){
+			display: none;
+		}
+	}
+}
