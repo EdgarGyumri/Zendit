@@ -124,15 +124,6 @@ a, p, input {
       font-size: 32px; }
     .header-content__block:first-child {
       padding-top: 190px; }
-    .header-content__block:last-child {
-      position: absolute;
-      width: 860px;
-      height: 335px;
-      background: #FD3E98;
-      opacity: 0.2;
-      right: 0;
-      bottom: 0;
-      z-index: -1; }
 
 .special-block {
   top: 900px;

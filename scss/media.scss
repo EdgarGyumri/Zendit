@@ -277,3 +277,222 @@
 		}
 	}
 }
+
+@media screen and (max-width: 768px) {
+	h2{
+		font-size: 25px !important;
+	}
+	h3{
+		font-size: 22px !important;
+	}
+	.general-link{
+		font-size: 16px;
+		padding: 15px 40px;
+	}
+	.container{
+		width: 540px;
+	}
+	.special{
+		&-block{
+			width: 400px;
+			left: calc(50% - 200px);
+			&__item{
+				input{
+					width: 300px;
+					font-size: 14px;
+				}
+			}
+			&__title{
+				span{
+					font-size: 18px;
+				}
+			}
+		}
+		&-header{
+			&__title{
+				width: 350px !important;
+			}
+		}
+		&-body{
+			&__item:nth-child(2){
+				margin-top: 40px;
+			}
+		}
+	}
+	.create{
+		&-block{
+			img{
+				width: 300px;
+			}
+			&__title{
+				width: 350px;
+			}
+			&__text{
+				width: 350px;
+				font-size: 18px;
+			}
+		}
+	}
+	.partners{
+		&-header{
+			&__title{
+				width: 350px;
+			}
+		}
+		&-body{
+			width: 350px;
+			padding: 40px 0 0 0;
+			&__item{
+				img{
+					width: 150px;
+				}
+			}
+		}
+	}
+	.footer{
+		&-block{
+			&__title{
+				font-size: 20px;
+			}
+			&__link{
+				font-size: 17px;
+			}
+			&__app{
+				img{
+					width: 150px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and(max-width: 576px) {
+	h1{
+		font-size: 27px !important;
+	}
+	h2{
+		font-size: 17px !important;
+	}
+	h3{
+		font-size: 20px !important;
+	}
+	.general-link{
+		padding: 10px 20px;
+		font-size: 13px;
+	}
+	.container{
+		width: 90%;
+	}
+	.header{
+		&-block{
+			&__logo{
+				width: 120px;
+			}
+		}
+		&-content{
+			&__block:nth-child(2){
+				img{
+					width: 280px;
+				}
+			}
+			&__title, &__text{
+				width: 90%;
+				margin: 0 auto;
+			}
+			&__text{
+				font-size: 20px;
+				margin-top: 15px;
+			}
+		}
+	}
+	.special{
+		&-block{
+			width: 250px;
+			left: calc(50% - 125px);
+			top: 700px;
+			&__title{
+				span{
+					font-size: 13px;
+				}
+			}
+			&__item{
+				input{
+					width: 90%;
+					padding: 15px;
+				}
+			}
+			&__link{
+				margin-top: 20px !important;
+			}
+		}
+		&-wrapper{
+			padding-top: 250px;
+		}
+		&-header{
+			&__title{
+				width: 90% !important;
+			}
+			&__subtitle{
+				font-size: 16px;
+			}
+		}
+		&-body{
+			&__img{
+				padding: 15px 18px;
+			}
+			&__text{
+				font-size: 16px;
+			}
+		}
+	}
+	.create{
+		&-block{
+			img, &__title, &__text{
+				width: 90%;
+				margin: 0 auto;
+			}
+			&__title{
+				margin-top: 30px;
+			}
+			&__text{
+				margin: 30px auto 30px;
+			}
+		}
+	}
+	.partners{
+		padding: 60px 0;
+		&-header{
+			&__title{
+				width: 90%;
+			}
+			&__subtitle{
+				font-size: 16px !important;
+			}
+		}
+		&-body{
+			width: 230px;
+			left: calc(50% - 115px);
+			&__item{
+				img{
+					width: 120px !important;
+				}
+			}
+		}
+	}
+	.footer{
+		&-block{
+			&__title{
+				font-size: 16px;
+			}
+			&__link{
+				font-size: 13px;
+				margin-bottom: 15px;
+			}
+			&__app{
+				img{
+					width: 100px;
+				}
+			}
+		}
+	}
+}
